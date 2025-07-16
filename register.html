@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form onsubmit="return registerUser()">
+    <h2 id="regH2">Create Your Account</h2>
+    <input type="text" id="regUsername" placeholder="Username" required><br>
+    <input type="email" id="regEmail" placeholder="Email" required><br>
+    <input type="password" id="regPassword" placeholder="Password" required><br>
+    <input type="password" id="regConfirmPassword" placeholder="Confirm Password" required><br>
+    <button type="submit">Register</button>
+  </form>
+  <p id="regP"> Already have an account?<a href="index.html">Back to Login</a></p>
+</body>
+<script src="script.js"></script>
+</html>

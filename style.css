@@ -1,0 +1,87 @@
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Krona One", sans-serif;
+  padding: 40px;
+  background-color: #e8e0d5; 
+  text-align: center;
+}
+
+form {
+  background: #fff;
+  padding: 28px; 
+  display: inline-block;
+  border-radius: 10px; 
+  margin-top: 3%;
+  font-family: "Krona One", sans-serif;
+}
+
+#regP{
+  font-size: 10px;
+}
+
+#regP a{
+  margin-left: 6px;
+}
+
+#regH2{
+  font-size: 12px;
+}
+
+#logH2{
+    font-size: 20px;
+}
+
+input {
+  margin: 12px 0; 
+  padding: 8px; 
+  width: 220px; 
+  border: 1px solid #ccc; 
+  transition: border-color 0.3s; 
+  background-color: #e8e0d5; 
+  border: solid 1px #A2845E;
+}
+
+input:focus {
+  border-color: #8c7ae6; 
+  outline: none; 
+}
+
+input.placeholder{
+  color: yellow;
+}
+
+button {
+  padding: 8px 28px; 
+  background-color: #A2845E;
+  border: none; 
+  color: white; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  margin-top: 12px;
+}
+
+button:hover {
+  background-color: darkgreen; 
+}
+
+a {
+  color: #8c7ae6; 
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+small {
+  display: block; 
+  margin-top: 15px; 
+  color: #757575; 
+}
